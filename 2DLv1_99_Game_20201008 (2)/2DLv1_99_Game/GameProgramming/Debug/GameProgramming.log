@@ -1,4 +1,4 @@
-﻿2021/05/31 10:12:50 にビルドを開始しました。
+﻿2021/06/03 13:50:52 にビルドを開始しました。
      1>ノード 2 上のプロジェクト "C:\Users\81803\OneDrive\デスクトップ\d\Game2\2DLv1_99_Game_20201008 (2)\2DLv1_99_Game\GameProgramming\GameProgramming.vcxproj" (Build ターゲット)。
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt CSceneGame.cpp
@@ -26,4 +26,4 @@
 
 ビルドに成功しました。
 
-経過時間 00:00:01.00
+経過時間 00:00:00.88
