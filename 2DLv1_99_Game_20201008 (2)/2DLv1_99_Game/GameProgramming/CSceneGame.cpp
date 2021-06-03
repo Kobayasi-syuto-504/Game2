@@ -103,7 +103,7 @@ void CSceneGame::Update() {
 	}
 
 	//•`‰æ”ÍˆÍ•Ï”‚Ìì¬@”ÍˆÍ‰º:-300 ”ÍˆÍã:300 ŒÅ’è
-	double mLeft, mRigth, mBottom = 250.0, mTop = 300.0;
+	double mLeft, mRigth, mBottom = 300.0, mTop = 300.0;
 	//‰æ‘œ”ÍˆÍ¶‚ÌÝ’è
 	mLeft = CPlayer::spInstance->x - 400.0;
 	//‰æ‘œ”ÍˆÍ‰E‚ÌÝ’è
