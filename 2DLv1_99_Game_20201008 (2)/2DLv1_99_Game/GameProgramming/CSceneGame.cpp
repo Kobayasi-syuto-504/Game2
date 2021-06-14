@@ -101,15 +101,14 @@ void CSceneGame::Update() {
 	}
 
 	//描画範囲変数の作成　範囲下:-300 範囲上:300 固定
-	double mLeft, mRigth, mBottom = -300.0, mTop = 300.0;
+	double mLeft, mRigth, mBottom, mTop=300.0;
 	//画像範囲左の設定
 	mLeft = CPlayer::spInstance->x - 400.0;
 	//画像範囲右の設定
 	mRigth = mLeft + 800.0f;
 	//
-	mBottom = CPlayer::spInstance->x - 400.0;
-	//
-	 mTop= mBottom + 800.0f;
+	mBottom = CPlayer::spInstance->x- 400.0;
+	
 	/*画像の投影変数開始*/
 	//行列（設定）をプロジェクションモードへ変更
 	glMatrixMode(GL_PROJECTION);
