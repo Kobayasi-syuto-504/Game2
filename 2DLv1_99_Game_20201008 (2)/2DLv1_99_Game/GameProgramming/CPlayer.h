@@ -14,6 +14,8 @@ public:
 	void Collision(CRectangle *i, CRectangle *y);
 
 	static CPlayer*spInstance;
+
+	int mAniCnt;//アニメーション用カウンタ
 };
 
 #endif
