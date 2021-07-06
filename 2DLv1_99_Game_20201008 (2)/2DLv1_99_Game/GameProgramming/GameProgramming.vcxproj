@@ -98,6 +98,7 @@
   <ItemGroup>
     <ClInclude Include="CBullet.h" />
     <ClInclude Include="CEnemy.h" />
+    <ClInclude Include="CGoal.h" />
     <ClInclude Include="CKey.h" />
     <ClInclude Include="CMap.h" />
     <ClInclude Include="CPlayer.h" />

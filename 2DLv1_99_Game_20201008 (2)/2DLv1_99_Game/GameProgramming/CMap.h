@@ -11,7 +11,7 @@ public:
 		if (mEnabled) {
 			CRectangle::Render(Texture, 0, 40, 70, 120);
 		}
-	
+	}
 };
 
 #endif
