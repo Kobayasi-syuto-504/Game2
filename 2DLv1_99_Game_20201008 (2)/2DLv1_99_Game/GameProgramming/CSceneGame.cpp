@@ -52,10 +52,11 @@ void CSceneGame::Init() {
 				Map->x = i * 100 - 350;
 				Map->y = j * -100 + 250;
 				Map->w = 50;
-				break;
+				
 			}
 		}
 	}
+	
 }
 void CSceneGame::Update() {
 	/*
