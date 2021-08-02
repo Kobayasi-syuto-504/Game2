@@ -91,4 +91,5 @@ public:
 //‰Â•Ï’·”z—ñ‚Ì’è‹`
 extern std::vector<CRectangle*> VectorRect;
 
+
 #endif //#ifndef‚ÌI‚í‚è
