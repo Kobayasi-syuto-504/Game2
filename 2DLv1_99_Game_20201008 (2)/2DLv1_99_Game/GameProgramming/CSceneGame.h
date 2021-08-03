@@ -18,7 +18,7 @@ public:
 	//デストラクタの宣言
 	~CSceneGame();
 
-	int Time = 60 * 60;
+	int Time = 60 * 35;
 
 };
 

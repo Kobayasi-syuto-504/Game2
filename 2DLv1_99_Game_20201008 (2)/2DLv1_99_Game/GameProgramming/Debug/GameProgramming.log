@@ -1,10 +1,18 @@
-﻿2021/08/02 10:43:20 にビルドを開始しました。
+﻿2021/08/03 22:55:41 にビルドを開始しました。
      1>ノード 2 上のプロジェクト "C:\Users\81803\OneDrive\デスクトップ\GS\Game2\2DLv1_99_Game_20201008 (2)\2DLv1_99_Game\GameProgramming\GameProgramming.vcxproj" (Build ターゲット)。
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt CSceneManager.cpp CSceneResult.cpp
-         CSceneResult.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt CSceneGame.cpp CSceneManager.cpp
+         CSceneGame.cpp
+     1>c:\users\81803\onedrive\デスクトップ\gs\game2\2dlv1_99_game_20201008 (2)\2dlv1_99_game\gameprogramming\cscenegame.cpp(66): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+     1>c:\users\81803\onedrive\デスクトップ\gs\game2\2dlv1_99_game_20201008 (2)\2dlv1_99_game\gameprogramming\cscenegame.cpp(75): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+     1>c:\users\81803\onedrive\デスクトップ\gs\game2\2dlv1_99_game_20201008 (2)\2dlv1_99_game\gameprogramming\cscenegame.cpp(77): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+     1>c:\users\81803\onedrive\デスクトップ\gs\game2\2dlv1_99_game_20201008 (2)\2dlv1_99_game\gameprogramming\cscenegame.cpp(119): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+     1>c:\users\81803\onedrive\デスクトップ\gs\game2\2dlv1_99_game_20201008 (2)\2dlv1_99_game\gameprogramming\cscenegame.cpp(140): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : 'sprintf' の宣言を確認してください。
+     1>c:\users\81803\onedrive\デスクトップ\gs\game2\2dlv1_99_game_20201008 (2)\2dlv1_99_game\gameprogramming\cscenegame.cpp(157): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
          コードを生成中...
-     1>cl : コマンド ライン warning D9028: 簡易リビルド時のエラーです、通常のビルドに戻します
+         スキップ中... (関連する変更は検出されませんでした)
+         CSceneManager.cpp
        Link:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\81803\OneDrive\デスクトップ\GS\Game2\2DLv1_99_Game_20201008 (2)\2DLv1_99_Game\Debug\GameProgramming.exe" /INCREMENTAL /NOLOGO glew32.lib glfw3.lib glfw3dll.lib glut32.lib soil.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\81803\OneDrive\デスクトップ\GS\Game2\2DLv1_99_Game_20201008 (2)\2DLv1_99_Game\Debug\GameProgramming.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\81803\OneDrive\デスクトップ\GS\Game2\2DLv1_99_Game_20201008 (2)\2DLv1_99_Game\Debug\GameProgramming.lib" /MACHINE:X86 Debug\CBack.obj
          Debug\CBullet.obj
@@ -25,4 +33,4 @@
 
 ビルドに成功しました。
 
-経過時間 00:00:01.48
+経過時間 00:00:00.86
